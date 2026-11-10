@@ -6,6 +6,20 @@
 
 An interactive E-Commerce Business Intelligence dashboard built using Python, SQL, Pandas, Plotly, and Streamlit to analyze retail sales, customer behavior, product performance, and business trends.
 
+## 📊 Dashboard Preview
+
+### Dashboard Overview
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+### Country & Product Analysis
+![Country Product Analysis](screenshots/country_product_analysis.png)
+
+### Customer Analysis
+![Customer Analysis](screenshots/customer_analysis.png)
+
+### Business Insights
+![Business Insights](screenshots/business_insights.png)
+
 ## 🚀 Live Demo
 
 **[Open Live Dashboard](https://ecommerceintelligencesystem-jzpnxyid7emnxxmauxhbvz.streamlit.app/)**
@@ -64,6 +78,12 @@ Ecommerce_Intelligence_System/
 │   └── 01_data_cleaning.ipynb
 │
 ├── src/
+├── screenshots/
+│   ├── dashboard_overview.png
+│   ├── country_product_analysis.png
+│   ├── customer_analysis.png
+│   └── business_insights.png
+│
 ├── app.py
 ├── ecommerce_intelligence.db
 ├── requirements.txt
@@ -85,11 +105,13 @@ git clone https://github.com/arjunajai221-a11y/Ecommerce_Intelligence_System.git
 cd Ecommerce_Intelligence_System
 ```
 
-### 3. Create and activate a virtual environment
+### 3. Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
+
+### 4. Activate the virtual environment
 
 Windows PowerShell:
 
@@ -97,13 +119,13 @@ Windows PowerShell:
 .\venv\Scripts\Activate.ps1
 ```
 
-### 4. Install dependencies
+### 5. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Run the dashboard
+### 6. Run the dashboard
 
 ```bash
 python -m streamlit run app.py
