@@ -1,33 +1,54 @@
-
 # 🛒 E-Commerce Intelligence System
+
+[![Live Dashboard](https://img.shields.io/badge/Live-Dashboard-FF4B4B?logo=streamlit&logoColor=white)](https://ecommerceintelligencesystem-jzpnxyid7emnxxmauxhbvz.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit)](https://streamlit.io/)
+
+An interactive E-Commerce Business Intelligence dashboard built using Python, SQL, Pandas, Plotly, and Streamlit to analyze retail sales, customer behavior, product performance, and business trends.
+
+## 🚀 Live Demo
+
+**[Open Live Dashboard](https://ecommerceintelligencesystem-jzpnxyid7emnxxmauxhbvz.streamlit.app/)**
 
 ## 📌 Project Overview
 
-The E-Commerce Intelligence System is a data-driven business intelligence project developed using Python, SQL, and Streamlit.
+The E-Commerce Intelligence System transforms raw online retail transaction data into meaningful business insights through data cleaning, exploratory data analysis, SQL querying, customer segmentation, and interactive visualizations.
 
-The project analyzes online retail transaction data to identify sales trends, customer purchasing behavior, product performance, and business insights through an interactive dashboard.
+## 🎯 Key Features
 
-## 🎯 Project Objectives
+- **Business Overview:** Total revenue, orders, customers, and products.
+- **Sales Analytics:** Monthly revenue trends and country-wise sales analysis.
+- **Product Performance:** Top 10 products by revenue.
+- **Customer Analysis:** Top customers based on revenue.
+- **RFM Segmentation:** Champions, Loyal Customers, Recent Customers, At Risk, and Others.
+- **Interactive Filters:** Filter results by date range and country.
+- **Data Export:** Download filtered sales data as CSV.
+- **Business Insights:** Key business metrics and insights.
 
-- Analyze overall sales and revenue performance.
-- Identify top-performing countries and products.
-- Understand customer purchasing patterns.
-- Perform RFM-based customer segmentation.
-- Visualize monthly revenue trends.
-- Generate business insights using data analytics.
+## 🛠️ Tech Stack
 
-## 🛠️ Technologies Used
+| Category | Technologies |
+|---|---|
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Plotly, Matplotlib, Seaborn |
+| Database | SQL, SQLite |
+| Dashboard | Streamlit |
+| Development | Jupyter Notebook, VS Code |
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Plotly
-- SQL
-- SQLite
-- Streamlit
-- Jupyter Notebook
+## 📊 Dataset
+
+**Online Retail Dataset – UCI Machine Learning Repository**
+
+The dataset contains retail transaction records, including invoice numbers, product descriptions, quantities, invoice dates, unit prices, customer IDs, and countries.
+
+## 📈 Project Results
+
+- Cleaned and processed 524,878 sales transactions.
+- Calculated total revenue of £10,642,110.80.
+- Analyzed monthly sales and country-wise revenue.
+- Identified top-performing products and customers.
+- Performed RFM-based customer segmentation.
 
 ## 📂 Project Structure
 
@@ -39,100 +60,66 @@ Ecommerce_Intelligence_System/
 │   └── processed/
 │
 ├── models/
-│
 ├── notebooks/
 │   └── 01_data_cleaning.ipynb
 │
 ├── src/
-│
 ├── app.py
 ├── ecommerce_intelligence.db
-└── README.md
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
-## 📊 Dataset
+## ⚙️ Installation and Execution
 
-**Dataset:** Online Retail Dataset
-
-**Source:** UCI Machine Learning Repository
-
-The dataset contains online retail transactions with information such as:
-
-- Invoice Number
-- Stock Code
-- Product Description
-- Quantity
-- Invoice Date
-- Unit Price
-- Customer ID
-- Country
-
-## ⚙️ Key Features
-
-### 1. Sales Analytics
-- Total Revenue
-- Total Orders
-- Total Customers
-- Total Products
-
-### 2. Revenue Analysis
-- Monthly Revenue Trends
-- Country-wise Revenue Analysis
-
-### 3. Product Performance
-- Top 10 Products by Revenue
-
-### 4. Customer Analysis
-- Top 10 Customers by Revenue
-- Customer Purchasing Behaviour
-
-### 5. RFM Segmentation
-- Champions
-- Loyal Customers
-- Recent Customers
-- At Risk
-- Others
-
-### 6. Interactive Dashboard
-- Date Range Filter
-- Country Filter
-- Interactive Visualizations
-- CSV Data Download
-
-## 🚀 Installation and Execution
-
-### 1. Clone the Repository
+### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/arjunajai221-a11y/Ecommerce_Intelligence_System.git
 ```
 
-### 2. Navigate to Project Folder
+### 2. Navigate to the project directory
 
 ```bash
 cd Ecommerce_Intelligence_System
 ```
 
-### 3. Install Dependencies
+### 3. Create and activate a virtual environment
 
 ```bash
-pip install pandas numpy matplotlib seaborn plotly streamlit sqlalchemy
+python -m venv venv
 ```
 
-### 4. Run Streamlit Application
+Windows PowerShell:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+### 4. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Run the dashboard
 
 ```bash
 python -m streamlit run app.py
 ```
 
-## 📈 Dashboard
-
-The dashboard provides interactive sales analytics, customer segmentation, product insights, and business performance visualizations.
-
 ## 👨‍💻 Author
 
 **Arjun Ajai**
 
-B.Sc. Computer Science
-
+B.Sc. Computer Science Graduate  
 Thiruvananthapuram, Kerala, India
+
+- GitHub: [arjunajai221-a11y](https://github.com/arjunajai221-a11y)
+- Project Repository: [E-Commerce Intelligence System](https://github.com/arjunajai221-a11y/Ecommerce_Intelligence_System)
+- Live Dashboard: [Streamlit App](https://ecommerceintelligencesystem-jzpnxyid7emnxxmauxhbvz.streamlit.app/)
+
+---
+
+⭐ If you find this project interesting, consider giving it a star!
